@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Code Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="editor">
+        <div class="editor-section">
+            <h2>HTML</h2>
+            <textarea id="htmlCode"></textarea>
+        </div>
+        <div class="editor-section">
+            <h2>CSS</h2>
+            <textarea id="cssCode"></textarea>
+        </div>
+        <div class="editor-section">
+            <h2>JavaScript</h2>
+            <textarea id="jsCode"></textarea>
+        </div>
+    </div>
+    <button onclick="runCode()">Run Code</button>
+    <iframe id="preview"></iframe>
+
+    <script src="app.js"></script>
+</body>
+</html>
